@@ -1,0 +1,30 @@
+
+.header {
+    background-color: #AE9B7B;
+    padding: 10px 20px;
+    height: 50px;
+  }
+  
+  .header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header__logo-img {
+    height: 62px;
+    width: 63px;
+  }
+  
+  .header__menu-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .header__menu-icon {
+    width: 30px;
+    height: auto;
+  }
+  
