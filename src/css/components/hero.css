@@ -1,12 +1,56 @@
 /* Hero Section */
-.hero {
+.hero1 {
     position: relative;
     width: 100%;
     height: 400px; 
     overflow: hidden;
   }
   
-  .hero__image-container {
+  .hero1__image--container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .hero1__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  
+  .hero1__content {
+    position: absolute;
+    bottom: 5px; 
+    left: 20px; 
+    color: #fff;
+  }
+  
+  .hero1__title--home {
+    font-size: 64px; 
+    font-family: 'Special Elite';
+    line-height: 110%;
+  }
+   
+  .hero1__title--home1 {
+    font-size: 64px; 
+    font-family: 'Special Elite';
+    line-height: 110%;
+  }
+  
+  .hero1__content1  {
+    position: absolute;
+    bottom: 2px; 
+    left: 17px; 
+    color: #AE9B7B;
+  }
+ 
+  .hero {
+    position: relative;
+    width: 100%;
+    height: 340px; 
+    overflow: hidden;
+  }
+  
+  .hero__image--container {
     width: 100%;
     height: 100%;
   }
@@ -24,21 +68,12 @@
     color: #fff;
   }
   
-  .hero__title {
-    font-size: 64px; 
+  .hero__title--home {
+    font-size: 36; 
     font-family: 'Special Elite';
     line-height: 110%;
   }
+   
+
   
-  .hero__content1  {
-    position: absolute;
-    bottom: 2px; 
-    left: 17px; 
-    color: #AE9B7B;
-  }
-  
-  .hero__title1 {
-    font-size: 64px; 
-    font-family: 'Special Elite';
-    line-height: 110%;
-  }
+ 

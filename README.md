@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : BARRET
+- PRÉNOM : Noah
+- GROUPE : A1
+- URL du site : 
+- URL FIGMA : https://www.figma.com/design/KIErhy4dfXkaE0W5caEJjZ/projet-MMI1-2024-NOAH?node-id=259-419&t=8jN6UqmhrB9iACuJ-1

@@ -1,25 +1,22 @@
-/* Conteneur principal des articles */
+
 .articles {
   display: flex;
-  flex-direction: column; /* Articles alignés verticalement */
-  gap: 60px; /* Marge de 60px entre chaque article */
-  align-items: center; /* Centre les articles horizontalement */
-  margin: 20px 0; /* Marge globale pour la section */
+  flex-direction: column; 
+  gap: 60px; 
+  align-items: center; 
+  margin: 20px 0;
   
 }
 
-/* Styles de base pour chaque article */
 .article {
   position: relative;
   width: 100%;
-  max-width: 500px; /* Taille maximale pour chaque article */
+  max-width: 500px;
   border-radius: 30px;
   overflow: hidden;
-  background-color: #ae9b7b; /* Couleur de fond pour le conteneur */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #AE9B7B; 
 }
 
-/* Image de fond de chaque article */
 .article__image-container {
   width: 100%;
 }
@@ -27,51 +24,46 @@
 .article__image {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Couvre tout le conteneur sans déformation */
+  object-fit: cover; 
 }
 
-/* Contenu de l'article */
 .article__content,
 .article__content1,
 .article__content2,
 .article__content3,
 .article__content4 {
   position: absolute;
-  bottom: 20px; /* Décalage depuis le bas */
-  left: 50%;
-  transform: translateX(-50%); /* Centre horizontalement */
-  background-color: #ae9b7b; /* Couleur de fond de la bulle */
+  bottom: 20px;
+  left: 20px; 
+  background-color: #ae9b7b; 
   color: #fff;
   border-radius: 15px;
-  padding: 15px 20px;
-  width: 85%; /* Largeur de la bulle */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Ombre légère */
+  padding: 15px;
   text-align: left;
 }
 
-/* Titre de l'article */
+
 .article__title {
   font-size: 1rem;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-/* Description de l'article */
 .article__description {
   font-size: 0.9rem;
   line-height: 1.4;
 }
 
-/* Bouton "Plus d'info" */
+
 .article__button,
 .article__button1,
 .article__button2,
 .article__button3,
 .article__button4 {
   position: absolute;
-  bottom: -10px; /* Décalage vers l'extérieur de la bulle */
+  bottom: -10px; 
   right: 10px;
-  background-color: #66462f; /* Couleur du bouton */
+  background-color: #66462f; 
   color: #fff;
   border: none;
   padding: 8px 12px;
@@ -80,8 +72,7 @@
   text-transform: uppercase;
   border-radius: 20px;
   cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  z-index: 10; /* Bouton au premier plan */
+  z-index: 10; 
 }
 
 .article__button:hover,
@@ -89,7 +80,7 @@
 .article__button2:hover,
 .article__button3:hover,
 .article__button4:hover {
-  background-color: #4d3523; /* Variation au survol */
+  background-color: #4d3523;
 }
 
 
@@ -99,5 +90,6 @@
   font-family: 'rubik', 'sans serif';
   font-weight: 400;
   color: #000000;
-  line-height: 1.6;
+  line-height: 1.2;
 }
+

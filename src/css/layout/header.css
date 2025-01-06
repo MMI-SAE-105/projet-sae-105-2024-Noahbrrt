@@ -1,22 +1,22 @@
 
 .header {
-    background-color: #AE9B7B;
-    padding: 10px 20px;
-    height: 50px;
+  background-color: #AE9B7B;
+  padding: 10px 10px; 
+  height: 50px;
   }
   
   .header__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   }
   
-  .header__logo-img {
-    height: 62px;
-    width: 63px;
+  .header__logo--img {
+  height: 62px;
+  width: 63px;
   }
   
-  .header__menu-btn {
+  .header__menu--btn {
     background: none;
     border: none;
     cursor: pointer;

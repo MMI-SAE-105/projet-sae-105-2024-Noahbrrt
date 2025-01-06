@@ -1,6 +1,6 @@
 
   const menu = document.getElementById("menu");
-  const openMenuBtn = document.querySelector(".header__menu-btn");
+  const openMenuBtn = document.querySelector(".header__menu--btn");
   const closeMenuBtn = document.querySelector(".menu-toggle");
 
   openMenuBtn.addEventListener("click", () => {
