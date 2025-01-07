@@ -1,0 +1,55 @@
+/* Global styling for the main section */
+.projects {
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Title styling */
+  .projects__title {
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  /* Description styling */
+  .projects__description {
+    font-size: 1.2rem;
+    color: #000000;
+    margin-bottom: 30px;
+    line-height: 1.5;
+  }
+  
+  .projects__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  
+  .project {
+    background-color: #AE9B7B;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+ .project__name {
+    font-family: 'Rubik';
+    font-size: 24px;
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+
+  
+  .project__author {
+    font-family: 'Rubik';
+    font-size: 16px;
+    color: #fff;
+  }
+  

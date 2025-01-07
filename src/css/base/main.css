@@ -37,3 +37,9 @@ h3 {
 .article__button4 {
     font-family: montserrat;
   }
+
+  .lien__achat, .legende__image {
+    display: block;
+    text-align: center;
+    color: gray;
+  }

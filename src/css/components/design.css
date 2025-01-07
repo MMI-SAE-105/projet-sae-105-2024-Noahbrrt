@@ -1,0 +1,46 @@
+.design__droite {
+    position: absolute; 
+    right: 0; 
+    margin-right: 0; 
+    padding: 0; 
+    z-index: -1; 
+}
+.design__droite2 {
+    position: relative; 
+  margin-left: -20px; 
+  padding: 0;
+}
+
+.design__droite3 {
+    position: absolute; 
+    left: 60px; 
+    z-index: 1; 
+    transform: translateY(-90%);
+}
+
+.design__droite4 {
+    position: absolute; 
+    right: 80px; 
+    z-index: 1; 
+    transform: translateY(-90%);
+}
+
+.design__droite5 {
+    position: absolute; 
+    right: 0; 
+    margin-right: 0; 
+    padding: 0; 
+    transform: translateY(-60%);
+}
+
+.design__droite6 {
+    position: relative; 
+  margin-left: -20px; 
+  padding: 0;
+}
+.design__droite8 {
+    position: absolute; 
+    left: -20px; 
+    transform: translateY(-90%);
+    padding: 0;
+}

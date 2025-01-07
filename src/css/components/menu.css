@@ -34,7 +34,7 @@
   flex-direction: column;
   gap: 20px; 
   align-items: flex-start; 
-  margin-top: 30px;; 
+  margin-top: 50px;; 
   margin-bottom: auto; 
 }
 .menu__link {
@@ -72,4 +72,31 @@
 
 .menu--active {
   transform: translateX(0); 
+}
+
+.menu__tribu {
+  position: absolute;
+  bottom: 0px;
+  right: 20px; 
+  z-index: 0; 
+}
+
+/* Image de la tribu */
+.menu__tribu--image {
+  width: 100%; 
+  z-index: 0; 
+}
+
+/* Conteneur du triangle */
+.menu__triangle--forme {
+  position: absolute;
+  bottom: 0px;
+  right: 0px; 
+  z-index: -1; 
+}
+
+/* Triangle décoratif */
+.menu__triangle {
+  width: 100%; 
+  height: auto; 
 }

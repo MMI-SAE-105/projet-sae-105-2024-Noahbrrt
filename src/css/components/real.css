@@ -1,0 +1,12 @@
+.pionniere__affiche, .pionniere__portrait{
+    display: block;
+    margin: 10px auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.pionniere__lien {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

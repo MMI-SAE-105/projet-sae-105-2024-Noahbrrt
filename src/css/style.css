@@ -36,4 +36,13 @@ Soyez attentifs à l'ordre d'import :
 @import "/src/css/components/hero.css";
 @import "/src/css/components/articles.css";
 @import "/src/css/components/menu.css";
-@import "/src/css/components/contact.css"
+@import "/src/css/components/contact.css";
+@import "/src/css/components/design.css";
+@import "/src/css/components/stat.css";
+@import "/src/css/components/film.css";
+@import "/src/css/components/dieux.css";
+@import "/src/css/components/propos.css";
+@import "/src/css/components/livre.css";
+@import "/src/css/components/carrousel.css";
+@import "/src/css/components/autres.css";
+@import "/src/css/components/real.css"
