@@ -6,16 +6,8 @@
     margin: 0 auto;
   }
   
-
-  .projects__title {
-    font-size: 2rem;
-    color: #000000;
-    margin-bottom: 10px;
-  }
-  
-  
   .projects__description {
-    font-size: 1.2rem;
+    font-size: 19px;
     color: #000000;
     margin-bottom: 30px;
     line-height: 1.5;
@@ -44,8 +36,6 @@
     display: block;
     margin-bottom: 5px;
   }
-  
-
   
   .project__author {
     font-family: 'Rubik';

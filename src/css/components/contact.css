@@ -35,7 +35,7 @@
   
   .contact__sous-titre {
     font-size: 16px;
-    font-family: rubik;
+    font-family: 'rubik';
     margin-bottom: 20px;
     line-height: 1.5;
     color: #666;
@@ -66,21 +66,15 @@
     padding: 10px;
     border: 1px solid #a58b75;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 16px;
     color: #333;
   }
   
   .contact__champ:focus {
     outline: none;
     border-color: #8d6e63;
-    box-shadow: 0 0 5px rgba(141, 110, 99, 0.5);
   }
-  
-  .contact__champ::placeholder {
-    color: #a58b75;
-    font-size: 0.9rem;
-  }
-  
+
   .contact__champ--textarea {
     resize: none; 
     height: 150px;

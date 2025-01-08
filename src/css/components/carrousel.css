@@ -8,7 +8,8 @@
     background: linear-gradient(135deg, #000000, #5c4e4e); 
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-    -webkit-overflow-scrolling: touch; 
+    position: relative; 
+    overflow: hidden;
   }
  
   
@@ -21,9 +22,34 @@
   }
   
   .carousel__item img {
-    width: 100%;
     border-radius: 10px; 
+    gap: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease; 
   }
   
+  .carousel__button {
+    position: absolute; 
+    background-color: #AE9B7B;
+    color: white; 
+    border: none; 
+    border-radius: 50%; 
+    width: 40px; 
+    height: 40px; 
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 10; 
+}
+
+.carousel__button--prev {
+    left: 3px; 
+    transform: translateY(300%);
+}
+
+.carousel__button--next {
+    right: 3px; 
+    transform: translateY(-545%);
+}

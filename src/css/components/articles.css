@@ -45,16 +45,10 @@
 
 
 .article__title {
-  font-size: 1rem;
+  font-size: 16px;
   font-weight: bold;
   margin-bottom: 10px;
 }
-
-.article__description {
-  font-size: 0.9rem;
-  line-height: 1.4;
-}
-
 
 .article__button,
 .article__button1,
@@ -75,15 +69,6 @@
   cursor: pointer;
   z-index: 10; 
 }
-
-.article__button:hover,
-.article__button1:hover,
-.article__button2:hover,
-.article__button3:hover,
-.article__button4:hover {
-  background-color: #4d3523;
-}
-
 
 .description__text {
   margin-top: 65px;
