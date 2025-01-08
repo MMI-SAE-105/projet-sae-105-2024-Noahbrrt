@@ -45,4 +45,6 @@ Soyez attentifs à l'ordre d'import :
 @import "/src/css/components/livre.css";
 @import "/src/css/components/carrousel.css";
 @import "/src/css/components/autres.css";
-@import "/src/css/components/real.css"
+@import "/src/css/components/real.css";
+@import "/src/css/components/frise.css";
+@import "/src/css/components/video.css";

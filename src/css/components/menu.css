@@ -81,13 +81,13 @@
   z-index: 0; 
 }
 
-/* Image de la tribu */
+
 .menu__tribu--image {
   width: 100%; 
   z-index: 0; 
 }
 
-/* Conteneur du triangle */
+
 .menu__triangle--forme {
   position: absolute;
   bottom: 0px;
@@ -95,8 +95,12 @@
   z-index: -1; 
 }
 
-/* Triangle décoratif */
 .menu__triangle {
   width: 100%; 
   height: auto; 
 }
+
+.header__logo--img1 {
+  height: 62px;
+  width: 63px;
+  }

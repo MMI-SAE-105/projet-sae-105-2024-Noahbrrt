@@ -11,6 +11,9 @@
     menu.classList.remove("menu--active");
   });
 
+
+
+  
   const carousel = document.querySelector(".carousel__container");
 
   carousel.addEventListener("wheel", (e) => {

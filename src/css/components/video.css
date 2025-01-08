@@ -1,0 +1,8 @@
+video {
+    display: block;
+    height: auto;
+    margin: 20px auto; 
+    border: 2px solid #AE9B7B; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /
+  }
+  
